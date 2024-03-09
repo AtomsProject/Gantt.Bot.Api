@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Gantt.Bot.DataModel\Gantt.Bot.DataModel.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MathNet.Numerics" Version="6.0.0-beta1"/>
+        <PackageReference Include="QuikGraph" Version="2.5.0"/>
+    </ItemGroup>
+
+</Project>
