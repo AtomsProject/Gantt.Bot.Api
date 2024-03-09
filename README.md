@@ -1,2 +1,2 @@
-# Gantt.Bot.Api
-API Layer for Gantt Bot
+# Gantt Bot - Api
+The Gantt Bot API layer, initially developed for prototyping scheduling algorithms, is slated for a rewrite in Rust aimed at running as WebAssembly (WASM). This strategic move not only ensures that no infrastructure maintenance is required and allows your data to remain 100% local but also enables other projects to import Gantt Bot's scheduling logic directly. This opens up the possibility for seamless integration of Gantt Bot's features into their own applications, enhancing functionality and user experience.
